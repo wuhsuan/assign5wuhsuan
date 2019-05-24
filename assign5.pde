@@ -581,7 +581,6 @@ boolean isHit(float ax, float ay, float aw, float ah, float bx, float by, float 
 String convertFramesToTimeString(int frames){	// Requirement #4
  int num,ber;
  num=frames/60/60;
-
  ber=(frames/60)%60;
  
  String frontNum=nf(num,2);
