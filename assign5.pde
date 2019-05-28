@@ -583,8 +583,8 @@ String convertFramesToTimeString(int frames){	// Requirement #4
  num=frames/60/60;
  ber=(frames/60)%60;
  
- String frontNum=nf(num,2);
- String backNum=nf(ber,2);
+ String frontNum=nf(floor(num),2);
+ String backNum=nf(floor(ber),2);
  
 	return frontNum+":"+backNum;
 }
